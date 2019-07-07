@@ -14,8 +14,8 @@
     <label>Submitter:</label><br>
     <input type="text" placeholder="Add submitter" class="box" #addSubmitter>
 </div>
-    <button class="btn-success" (click) = addComponent(addQuote.value,addAuthor.value,addSubmitter.value)>ADD</button>
-    <br><br>
+<button class="firstBut btn-success btn-lg" (click) = addComponent(addQuote.value,addAuthor.value,addSubmitter.value)>ADD</button>
+<br><br>
 </div>
 <ul *ngFor='let quote of quotes'>
     <li>
