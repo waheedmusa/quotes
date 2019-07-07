@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+<label>Quote</label><br>
+    <textarea type="text" placeholder="Add a quote" #addQuote></textarea>
+</div>
+    <div class="col-4">
+    <label>Author</label><br>
+    <input type="text" placeholder="Add Author" #addAuthor>
+</div>
+    <div class="col-4">
+    <label>Submitter</label><br>
+    <input type="text" placeholder="Add submitter" #addSubmitter>
+</div>
+
+    <button class="btn-success" (click) = addComponent(addQuote.value,addAuthor.value,addSubmitter.value)>ADD</button>
+    <br><br>
+</div>
+<ul *ngFor='let quote of quotes'>
+    <li>
+            "{{ quote.say }}"
+    </li>
+    <app-add-quote [quote]='quote'></app-add-quote>
+
+    <button class="btn-danger" (click) = "deleteQuote(quote)">DELETE</button>
+</ul>
+</div>
+
