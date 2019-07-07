@@ -21,7 +21,7 @@
     <li>
             "{{ quote.say }}"
     </li>
-    <button (click)='toggleDetails(i)'>Toggle Details</button>
+    <button class="btn-info" (click)='toggleDetails(i)'>Toggle Details</button>
     <app-add-quote *ngIf='quote.showDescription' [quote]='quote'></app-add-quote>
     <app-like></app-like>
 
