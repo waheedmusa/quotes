@@ -14,6 +14,11 @@ export class QuoteComponent implements OnInit {
     new Quote('Abdul', 'If you wanna change things in a big way, you need to make big changes', 'Musa'),
    ];
 
+   toggleDetails(index){
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  }
+
+
    addComponent(newQuote, newAuthor, newName){
      var newTodo = {
       say: newQuote,
@@ -22,10 +27,12 @@ export class QuoteComponent implements OnInit {
      }
      this.quotes.push(newTodo);
    }
+
+
    deleteQuote(quote){
      this.quotes = this.quotes.filter(t => t.name !== quote.name);
    }
-  
+
 
 
   constructor() { }
