@@ -1,7 +1,7 @@
 <h1 class="header">My Quotes</h1>
 <hr>
 <div class="container">
-    <div class="row">
+    <div class="row firstRow">
         <div class="col-4">
 <label>Quote:</label><br>
     <textarea type="text" placeholder="Add a quote" class="box" #addQuote></textarea>
@@ -17,15 +17,17 @@
 <button class="firstBut btn-success btn-lg" (click) = addComponent(addQuote.value,addAuthor.value,addSubmitter.value)>ADD</button>
 <br><br>
 </div>
+<div class="row secRow">
 <ul *ngFor='let quote of quotes'>
     <li>
             "{{ quote.say }}"
     </li>
-    <button class="btn-info" (click)='toggleDetails(i)'>Toggle Details</button>
+    <button class="allBut btn-info" (click)='toggleDetails(i)'>Toggle Details</button>
     <app-add-quote *ngIf='quote.showDescription' [quote]='quote'></app-add-quote>
     <app-like></app-like>
 
-    <button class="btn-danger" (click) = "deleteQuote(quote)">DELETE QUOTE</button>
+    <button class="allBut btn-danger" (click) = "deleteQuote(quote)">DELETE QUOTE</button>
 </ul>
+</div>
 </div>
 

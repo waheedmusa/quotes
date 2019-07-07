@@ -3,7 +3,7 @@
     font-weight: bold;
     padding-top: 10px;
 }
-.row{
+.firstRow{
     background-color: darkgray;
     padding: 5%;
 }
@@ -12,4 +12,10 @@
 }
 .firstBut{
     margin-left: 50%;
+}
+.allBut{
+    border-radius: 5px;
+}
+.secRow{
+    background-color: mistyrose;
 }
