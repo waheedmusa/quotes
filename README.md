@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
-####By Abdulwaheed Musa
+##By Abdulwaheed Musa
 
 ##Description
 Quotes is a website that allows a user to add their inspiring quotes for other people to view and like.
