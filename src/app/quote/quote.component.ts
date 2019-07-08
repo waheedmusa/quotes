@@ -24,6 +24,7 @@ export class QuoteComponent implements OnInit {
       say: newQuote,
       author: newAuthor,
        name: newName,
+       showDescription: newQuote,
      }
      this.quotes.push(newTodo);
    }
