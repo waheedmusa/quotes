@@ -1,9 +1,9 @@
 
 .header{
-    color: white;
     text-align: center;
     font-weight: bold;
     padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 .firstRow{
     background-color: white;
