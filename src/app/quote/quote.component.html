@@ -4,19 +4,19 @@
     <div class="row firstRow">
         <div class="col-4">
 <label>Quote:</label><br>
-    <input type="text" placeholder="Add a quote" class="box" #addQuote>
+    <input type="text" placeholder="Add Quote" class="box" #addQuote>
 </div>
     <div class="col-4">
     <label>Author:</label><br>
     <input type="text" placeholder="Add Author" class="box" #addAuthor>
 </div>
     <div class="col-4">
-    <label>Submitter:</label><br>
-    <input type="text" placeholder="Add submitter" class="box" #addSubmitter>
+    <label>Publisher:</label><br>
+    <input type="text" placeholder="Add Publisher" class="box" #addSubmitter>
 </div> 
 <button class="firstBut btn-success" (click) = addComponent(addQuote.value,addAuthor.value,addSubmitter.value)>ADD QUOTE</button>
 <br><br>
-<ul *ngFor='let quote of quotes; let i = index'>
+<ul *ngFor='let quote of quotes; let i = index' class="list">
     <li>
             "{{ quote.say }}"
     </li>
