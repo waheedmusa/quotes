@@ -2,18 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
-##By Abdulwaheed Musa
+## By Abdulwaheed Musa
 
-##Description
+## Description
 Quotes is a website that allows a user to add their inspiring quotes for other people to view and like.
 
-##Setup/Installation Requirements
+## Setup/Installation Requirements
 * git clone
 * cd quotes
 * code .
 * atom . (This is for Atom editor)
 
-##BDD
+## BDD
 Users visiting this website should expect:
 * A form that allows the user to input a quote, the author of the quote and the name of the user inputing the quote.
 * When the add button is clicked the quote inputted will be added to the list of quotes on the website.
