@@ -1,3 +1,6 @@
+.body{
+    background-image: url("/images/space.jpg");
+}
 .header{
     text-align: center;
     font-weight: bold;

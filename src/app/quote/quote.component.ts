@@ -9,14 +9,14 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[] = [
-    new Quote('Waheed', 'Tread your own path you will never make it as a follow', 'Abdul'),
-    new Quote('Musa', 'when there is no enemy within, the enemy outside can do us no harm ', 'Waheed'),
-    new Quote('Abdul', 'If you wanna change things in a big way, you need to make big changes', 'Musa'),
+    new Quote("Waheed", "Tread your own path, you'll never make it as a follow", 'Abdul'),
+    new Quote("Musa", "When there's no enemy within, the enemy outside can do us no harm", "Waheed"),
+    new Quote("Abdul", "If you want to change things in a big way, you need to make big changes", "Musa"),
    ];
 
    toggleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
-  }
+  };
 
 
    addComponent(newQuote, newAuthor, newName){
