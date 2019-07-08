@@ -16,6 +16,8 @@
 </div>
 <button class="firstBut btn-success" (click) = addComponent(addQuote.value,addAuthor.value,addSubmitter.value)>ADD QUOTE</button>
 <br><br>
+</div>
+<div class="secRow">
 <ul *ngFor='let quote of quotes; let i = index'>
     <li>
             "{{ quote.say }}"
