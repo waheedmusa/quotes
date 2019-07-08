@@ -9,7 +9,7 @@ Quotes is a website that allows a user to add their inspiring quotes for other p
 
 ##Setup/Installation Requirements
 * git clone
-* cd pizza_website
+* cd quotes
 * code .
 * atom . (This is for Atom editor)
 
