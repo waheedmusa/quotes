@@ -9,7 +9,7 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[] = [
-    new Quote("Waheed", "Tread your own path, you'll never make it as a follow", 'Abdul'),
+    new Quote("Waheed", "Tread your own path, you'll never make it as a follow", "Abdul"),
     new Quote("Musa", "When there's no enemy within, the enemy outside can do us no harm", "Waheed"),
     new Quote("Abdul", "If you want to change things in a big way, you need to make big changes", "Musa"),
    ];

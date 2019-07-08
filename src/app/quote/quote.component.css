@@ -15,15 +15,20 @@
 }
 .firstBut{
     margin-left: 40%;
+    font-family: 'Poppins', sans-serif;
+
 }
 .allBut{
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 .delBut{
     border-radius: 5px;
     margin-left: 50%;
+    font-family: 'Poppins', sans-serif;
 }
 .secRow{
     background-color: mistyrose;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
 }
