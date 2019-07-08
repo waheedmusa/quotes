@@ -1,7 +1,6 @@
-.body{
-    background-image: url("/images/space.jpg");
-}
+
 .header{
+    color: white;
     text-align: center;
     font-weight: bold;
     padding-top: 10px;
@@ -9,16 +8,22 @@
 .firstRow{
     background-color: darkgray;
     padding: 5%;
+    border-radius: 5px;
 }
 .box{
     border-radius: 5px;
 }
 .firstBut{
-    margin-left: 50%;
+    margin-left: 40%;
 }
 .allBut{
     border-radius: 5px;
 }
+.delBut{
+    border-radius: 5px;
+    margin-left: 50%;
+}
 .secRow{
     background-color: mistyrose;
+    border-radius: 5px;
 }
