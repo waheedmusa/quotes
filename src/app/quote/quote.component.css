@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .firstRow{
-    background-color:#BC8F8F;
+    background-color:#BFC9CA;
     padding: 5%;
     border-radius: 10px;
 }
@@ -14,6 +14,7 @@
     border-radius: 5px;
 }
 .firstBut{
+    margin-top: 15px;
     margin-left: 40%;
     font-family: 'Poppins', sans-serif;
 
@@ -27,8 +28,4 @@
     margin-left: 500px;
     font-family: 'Poppins', sans-serif;
 }
-.secRow{
-    background-color: #BC8F8F;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
-}
+
